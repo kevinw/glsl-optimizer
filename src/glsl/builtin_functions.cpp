@@ -4649,7 +4649,6 @@ typedef int mtx_t;
 
 /* The singleton instance of builtin_builder. */
 static builtin_builder builtins;
-static mtx_t builtins_lock = _MTX_INITIALIZER_NP;
 
 /**
  * External API (exposing the built-in module to the rest of the compiler):
